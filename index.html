@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQ checkpoint4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+
+</head>
+<body>
+    <div class="flex-container">
+      <div class="button">
+            <button class="btn" id="bold"><b>B</b></button>
+            <button class="btn" id="italic" ><i>I</i></button>
+            <button class="btn" id="underline"><u>U</u></button>
+            <button class="btn"><select id="mySelect" >
+                    <option value="'Courier New', Courier, monospace">'Courier New', Courier, monospace</option>
+                    <option value="'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif</option>
+                    <option value="'Times New Roman', Times, serif">'Times New Roman', Times, serif</option>
+                  </select></button>
+            <button class="btn"><select id="urSelect" >
+                    <option value="12px">12</option>
+                    <option value="20px">20</option>
+                    <option value="28px">28</option>
+                    <option value="36px">36</option> 
+                    <option value="48px">48</option>
+                    <option value="72px">72</option>
+                  </select></button>
+       </div></div>
+   <br> <br> <br>
+   <div id="demo">
+    <h1>Basic Javascript</h1>
+    Checkpoint(easy):
+    <p>We're going to make a program that looks like Microsoft Word. <br>  
+            There will be one paragrah and a bunch of 
+            Each button will have an onclick attribute that will link to a different javascript function. 
+            These buttons will have unique names and should do the following : 
+            <ul>
+               <li>one button to make the paragraph bold</li>
+               <li>one button to make the paragraph italic</li>
+               <li>one button to make the paragraph underlined</li> 
+               <li>one dropdown list that will have a bunch of fonts, and when you click on one the paragraph’s font will change to it.</li>
+               <li>one dropdown list that will have a bunch of numbers (choose whatever you want) and when you click on it the paragraph’s font size changes to that.</li> 
+            </ul> 
+    </p>
+    </div> 
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>
